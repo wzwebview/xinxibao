@@ -136,6 +136,13 @@
 	height: 40px;
 	border-radius: 50%;
 }
+.cd-timeline-img.control{
+	width: 80px;
+	border-radius: 0;
+	color: #009ef5;
+	cursor: pointer;
+	border:2px solid #009ef5;
+}
 .cd-timeline-img{
 	display: flex;
 	justify-content: center;
@@ -151,6 +158,9 @@
 	.cd-timeline-img {
 		left: 50%;
 		margin-left: -21px;
+	}
+	.cd-timeline-img.control{
+		margin-left: -41px;
 	}
 	.cssanimations .cd-timeline-img.is-hidden {
 		visibility: hidden;

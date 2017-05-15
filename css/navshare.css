@@ -44,6 +44,11 @@ body{
 	border-radius: 10px;
 	background-color: #068fcc;
 }
+@media screen and (max-width: 992px){
+	.banner_box.togglebanner{
+		display: none;
+	}
+}
 @media screen and (max-width: 1200px){
 	.banner_box .txt h1{
 		font-size: 30px;
