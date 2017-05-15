@@ -29,9 +29,12 @@
 	margin-bottom: 20px;
 	border-bottom: 1px solid #aaa;
 }
-.brief ul li span{
+.brief ul li .span{
 	display: block;
 	font-size: 18px;
+}
+.brief ul li .span span{
+	margin:0 5px;
 }
 @media screen and (max-width: 768px) {
 	.brief,
@@ -47,8 +50,11 @@
 	.brief ul li p{
 		font-size: 18px;
 	}
-	.brief ul li span{
+	.brief ul li .span{
 		font-size: 12px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
 	}
 }
 .road{

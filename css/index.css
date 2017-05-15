@@ -22,14 +22,16 @@
 	width: 160px;
 	height: 20px;
 	outline: none;
-	border:1px solid #ddd;
+	border: 0;
 	background-repeat: no-repeat;
 	background-position: center;
 }
 .infostyle .choose button.btn1{
+	border:1px solid #ddd;
 	background-image: url(../images/icon/icon12.png);
 }
 .infostyle .choose button.btn2{
+	border:1px solid #ddd;
 	background-image: url(../images/icon/icon12_.png);
 }
 .infostyle .ulchoose_box{
@@ -74,6 +76,7 @@
 }
 .infostyle ul.ul2 li{
 	display: none;
+	overflow: hidden;
 }
 .infostyle ul.ul2 li.block{
 	display: block;
@@ -126,6 +129,23 @@
 .infofunc_box .infofunc ul li span{
 	display: block;
 	text-align: center;
+}
+@media screen and (min-width: 992px) {
+	.infostyle ul.ul2 li div{
+		height: 454px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.infostyle ul.ul2 li div a{
+		margin-top: 40px;
+	}
+	.infostyle ul.ul2 li div h3.h3_1{
+		margin-bottom: 40px;
+	}
+	.infostyle ul.ul2 li div p{
+		line-height: 25px;
+	}
 }
 @media screen and (max-width: 768px) {
 	.infofunc_box .infofunc header h3,
